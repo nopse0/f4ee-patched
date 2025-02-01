@@ -1,0 +1,21 @@
+set(headers ${headers}
+	include/ActorUpdateManager.h
+	include/BodyGenInterface.h
+	include/BodyMorphInterface.h
+	include/CharGenInterface.h
+	include/CharGenTint.h
+	include/GameAllocator.h
+	include/Morpher.h
+	include/OverlayInterface.h
+	include/PapyrusBodyGen.h
+	include/PapyrusOverlays.h
+	include/ScaleformNatives.h
+	include/SkinInterface.h
+	include/StringTable.h
+	include/TransformInterface.h
+	include/Utilities.h
+	include/half.hpp
+	include/kd_matcher.hpp
+	include/resource.h
+	include/shape.hpp
+)
