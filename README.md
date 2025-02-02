@@ -40,6 +40,10 @@ OverlayInterface::UniqueID OverlayInterface::GetNextUID()
 
 So in RemoveOverlay() the removed UID must be added to the list of free indices (otherwise you get the error described above) !!!! 
 
+# Original F4EE/LooksMenu Source
+ 
+You can find the original F4EE sources in [Expired6978's Git repo](https://github.com/expired6978/F4SEPlugins.git). I simply copied his source files and added them to my repo. Would have been better to fork from his repo (would have kept the Git history and made future merges easier), but the LooksMenu directory structure is totally different from what I am using, and I am lacking the time and CMake/Git knowledge to automatize moving the files to the locations where I need them. Maybe later, at the moment I am happy I found the bug and was able to rebuild F4EE.
+
 # Build Instructions
 
 Create a folder, and in this folder checkout the 'f4se' and 'common' Git repositories from Ian Patt [(link)](https://github.com/ianpatt/f4se.git). On Windows you can use TortoiseGit and its Git Bash for this. In the f4se folder, you have to checkout the right f4se release tag, matching your Fallout 4 runtime version. For example, for Fallout 1.10.163 the f4se release tag is v0.6.23. This can be done in Git Bash with the command:
